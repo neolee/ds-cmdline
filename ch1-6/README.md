@@ -13,7 +13,11 @@ Tools used in this seaction.
 * Arch: `sudo pacman -S jq`
 
 3. [json2csv](https://github.com/jehiah/json2csv)
-Install golang and then `go get github.com/jehiah/json2csv`
+* Install golang
+  * macOS: `brew install go`
+  * Debian: `sudo apt install golang-1.9`
+  * Arch: `sudo pacman install go`
+* `go get github.com/jehiah/json2csv`
 
 4. [csvlook](https://csvkit.readthedocs.io/en/0.9.1/scripts/csvlook.html)
 * macOS: `brew install csvkit`
@@ -30,3 +34,4 @@ Add `ds-cmdline/tools` to $PATH
   * Arch: `sudo pacman -S r tk`
 * Open R REPL and run `install.packages("ggplot2")`
 * Check `Rio` scripts in `ds-cmdline/tools`
+Rio
