@@ -34,4 +34,3 @@ Add `ds-cmdline/tools` to $PATH
   * Arch: `sudo pacman -S r tk`
 * Open R REPL and run `install.packages("ggplot2")`
 * Check `Rio` scripts in `ds-cmdline/tools`
-Rio
