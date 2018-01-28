@@ -1,0 +1,1 @@
+parallel -j4 --progress --delay 0.1 --results results "curl -sL 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=New+York+Fashion+Week&begin_date={1}0101&end_date={1}1231&page={2}&api-key=a86116e18e4b45059d185b9a8693d2c8'" ::: {2015..2017} ::: {0..99} > /dev/null
